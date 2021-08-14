@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios JavaScript</title>
+</head>
+
+<body>
+ <h1>LISTA 1 DE EJERCICIOS DE ALGORITMOS</h1>
+ <ol>
+     <li>
+         <div> A un trabajador le pagan según sus horas trabajadas y una tarifa de pago
+            por hora. Si la cantidad de horas trabajadas es mayor a 40 horas, la
+            tarifa se incrementa en un 50% para las horas extras. Escribir un
+            algoritmo que calcule el salario del trabajador dadas las horas trabajadas
+            y la tarifa.
+        </div>
+        <input type="button" value="Ejercicio 1" onclick="ejercicio1();" /> <br><br>
+     </li>
+     <li>
+        <div> A un trabajador le descuentan de su sueldo el 10% si su sueldo es menor o
+            igual a 1000, por encima de 1000 y hasta 2000 el 5% del adicional, y por
+            encima de 2000 el 3% del adicional. Escribir un algoritmo que calcule el
+            descuento y sueldo neto que recibe el trabajador dado su sueldo.
+        </div>
+        <input type="button" value="Ejercicio 2" onclick="ejercicio2();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir un algoritmo que lea una cantidad y calcule el descuento
+            considerando que si la cantidad dada está por encima de 100 el descuento
+            es el 10% y si está por debajo de 100 el descuento es el 2%.
+        </div>
+        <input type="button" value="Ejercicio 3" onclick="ejercicio3();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir un algoritmo que lea un tiempo en segundos y que calcule los
+            segundos restantes que le correspondan para convertirse exactamente en
+            minutos.
+        </div>
+        <input type="button" value="Ejercicio 4" onclick="ejercicio4();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir un algoritmo que lea un tiempo en minutos y que calcule los días,
+            horas y minutos que le corresponden.            
+        </div>
+        <input type="button" value="Ejercicio 5" onclick="ejercicio5();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir un algoritmo que lea las horas trabajadas de una persona y la
+            tarifa de pago para calcular su salario e imprimirlo.                      
+        </div>
+        <input type="button" value="Ejercicio 6" onclick="ejercicio6();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir el algoritmo que permita emitir la factura correspondiente a una
+            compra de un articulo determinado, del que se adquieren una o varias
+            unidades. El IVA es del 15% y si el precio neto ( precio venta mas IVA) es
+            mayor de 50.00 pesos se debe realizar un descuento del 5%.                     
+        </div>
+        <input type="button" value="Ejercicio 7" onclick="ejercicio7();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir el algoritmo que muestre el mensaje de acuerdo a la edad
+            ingresada: Si la edad es de 0 a 10 años “niño”, si la edad es de 11 a 14
+            años “púber” , si la edad es de 15 a 18 años “ adolescente” , si la edad
+            es de 19 a 25 años “joven” , si la edad es de 26 a 65 años “ adulto” , si
+            la edad es mayor de 65 “anciano”.                    
+        </div>
+        <input type="button" value="Ejercicio 8" onclick="ejercicio8();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir el algoritmo que lea una hora y que muestre la programación de
+            acuerdo al horario en que se transmite “dibujos animados ” : Si es de 10 a
+            12 horas, “ tele serie ” : si es de 13 a 16 horas, “ novelas repetidas ” :
+            si es de 16 a 18 horas, “dibujos animados ” : si es de 18 a 22 horas,
+            “noticiero” : si es de 22 a 23 horas.                 
+        </div>
+        <input type="button" value="Ejercicio 9" onclick="ejercicio9();" /><br><br>
+    </li>
+    <li>
+        <div> Dadas 3 longitudes, escribir un algoritmo que determine mediante un
+            mensaje si tales longitudes forman un triangulo: equilátero (cuando sus
+            tres lados son iguales), isósceles (cuando dos de sus lados son iguales) o
+            escaleno (cuando sus tres lados son diferentes), o no forman triangulo
+            (cada lado tiene que ser menor que la suma de los otros dos).                              
+        </div>
+        <input type="button" value="Ejercicio 10" onclick="ejercicio10();" /><br><br>
+    </li>
+    <li>
+        <div> Una tienda se dedica a la venta de computadoras, cada vendedor
+            tiene un sueldo mensual pero además de su sueldo gana una comisión por
+            venta: Si el monto de venta es mayor de 10,000 la comisión será del 15%.
+            Si el monto de venta es mayor o igual a 5,000 y menor de 10,000 la
+            comisión es del 5%. Si el monto de la venta es menor que 5,000 no tiene
+            comisión. Escribir un algoritmo que calcule el sueldo total de cada
+            vendedor.                              
+        </div>
+        <input type="button" value="Ejercicio 11" onclick="ejercicio11();" /><br><br>
+    </li>
+    <li>
+        <div> Katthy organiza una fiesta en la cual una computadora controla el
+            ingreso mediante 5 claves. Si se ingresa al menos una clave incorrecta la
+            computadora imprimirá "TE EQUIVOCASTE DE FIESTA" y no permitirá el
+            ingreso. Si las 5 claves son correctas imprimirá "BIENVENIDO A LA FIESTA".
+            Escribir un algoritmo que realice lo anterior.
+            Las Claves son: 
+            <ul>
+                <li>1: "TIENES"</li>
+                <li>2: "QUE SER"</li>
+                <li>3: "INVITADO"</li>
+                <li>4: "PARA"</li>
+                <li>5: "INGRESAR"</li>
+            </ul>                                   
+        </div>
+        <input type="button" value="Ejercicio 12" onclick="ejercicio12();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir un algoritmo que calcule las raíces de una ecuación
+            cuadrática cuya forma canónica es:
+            Ax**2 + By + C = 0
+            Solo se calcularán raíces reales. si el discriminante en menor de 0,
+            imprimir un mensaje que indique que existen dos raíces imaginarias. Los
+            coeficientes A,B,C serán ingresados.                            
+        </div>
+        <input type="button" value="Ejercicio 13" onclick="ejercicio13();" /><br><br>
+    </li>
+    <li>
+        <div> "TIENDAS PATITO" se encuentra de aniversario y ha programado una
+            serie de ofertas con la finalidad de brindar facilidades a sus clientes y
+            al a vez de incrementar sus ventas. Estas ofertas se basan específicamente
+            en un porcentaje de descuento sobre el total de compra el cual varia de
+            acuerdo al monto. Por un monto mayor o igual a $500 se hará un descuento
+            del 30%. Por un monto menor de $500 pero mayor o igual a 200 se hará un
+            descuento del 20%.Por un monto menor de $200 pero mayor o igual a 100 se
+            hará un descuento del 10%. Escribir un algoritmo que calcule la cantidad
+            total a pagar de una compra.                            
+        </div>
+        <input type="button" value="Ejercicio 14" onclick="ejercicio14();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir un algoritmo que permita escoger en un conjunto de números 
+            naturales: 
+            <ul>
+                <li>Cuáles son menores que 15.</li>
+                <li>Cuáles son mayores de 50.</li>
+                <li>Cuáles están comprendidos entre 25 y 50.</li>
+                <li>El algoritmo termina con el ingreso de un número negativo. </li>
+            </ul>                 
+        </div>
+        <input type="button" value="Ejercicio 15" onclick="ejercicio15();" /><br><br>
+    </li>
+    <li>
+        <div> Calcular mediante un algoritmo repetitivo la suma de los N primeros
+            números naturales.                          
+        </div>
+        <input type="button" value="Ejercicio 16" onclick="ejercicio16();" /><br><br>
+    </li>
+    <li>
+        <div> Modificar el ejercicio 1 para obtener la suma de los salarios de 200
+            trabajadores.                                     
+        </div>
+        <input type="button" value="Ejercicio 17" onclick="ejercicio17();" /><br><br>
+    </li>
+    <li>
+        <div> Dadas N notas de un estudiante, escribir un algoritmo que calcule:
+            <ol type="a">
+                <li>Cuántas notas tiene desaprobadas.</li>
+                <li>Cuántas aprobadas.</li>
+                <li>El promedio de notas.</li>
+                <li> El promedio de notas aprobadas y el de desaprobadas.</li>
+            </ol>                          
+        </div>
+        <input type="button" value="Ejercicio 18" onclick="ejercicio18();" /><br><br>
+    </li>
+    <li>
+        <div> Dado un número n, escribir un algoritmo que determine la suma de sus
+            dígitos.                                     
+        </div>
+        <input type="button" value="Ejercicio 19" onclick="ejercicio19();" /><br><br>
+    </li>
+    <li>
+        <div> Realizar un algoritmo que permita pedir 50 números naturales y
+            determine e imprima cuántos son pares, impares, positivos y negativos.
+        </div>
+        <input type="button" value="Ejercicio 20" onclick="ejercicio20();" /><br><br>
+    </li>
+    <li>
+        <div> Desarrollar un algoritmo para calcular e imprimir el factorial de un
+            número dado.
+        </div>
+        <input type="button" value="Ejercicio 21" onclick="ejercicio21();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir un algoritmo que calcule la media de 100 números dados e
+            imprima su resultado..
+        </div>
+        <input type="button" value="Ejercicio 22" onclick="ejercicio22();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir un algoritmo que calcule la suma y el producto de los
+            números pares comprendidos entre 20 y 400 incluyendo ambos.
+        </div>
+        <input type="button" value="Ejercicio 23" onclick="ejercicio23();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir un algoritmo que lea varios caracteres, uno a la vez, y que
+            se detenga cuando sea dada alguna de las vocales y la escriba.
+        </div>
+        <input type="button" value="Ejercicio 24" onclick="ejercicio24();" /><br><br>
+    </li>
+    <li>
+        <div> El ing. De sistemas de un banco de crédito necesita conocer de una
+            lista de 2500 cuentas cuál es la que posee mayor cantidad y cuál es la que
+            posee menor cantidad, de dinero. Escriba un algoritmo que realice lo
+            anterior, sin ordenar las cuentas.
+        </div>
+        <input type="button" value="Ejercicio 25" onclick="ejercicio25();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir un algoritmo que permita calcular y mostrar el jornal
+            mensual de una empresa de acuerdo con las siguientes especificaciones:
+            <ul>
+                <li>los trabajadores tienen dos turnos (nocturno y diurno)</li>
+                <li>la tarifa de las horas diurnas es de 10 pesos.</li>
+                <li>La tarifa de las nocturnas es de 20 pesos.</li>
+                <li>Ningún trabajador recibe nada por sábados o domingos.</li>
+                <li>El trabajador será despedido si sus horas trabajadas son menores que 15.</li>
+            </ul>
+            El algoritmo termina cuando sea dado cero como horas trabajadas.
+        </div>
+        <input type="button" value="Ejercicio 26" onclick="ejercicio26();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir un algoritmo que determine cuántos trabajadores recibirán
+            un salario mayor o igual a 500, dadas la tarifa y las horas trabajadas.            
+        </div>
+        <input type="button" value="Ejercicio 27" onclick="ejercicio27();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir un algoritmo que clasifique a 50 personas según su edad y
+            sexo, al final deberá escribir la cantidad de personas masculinas mayores
+            de edad, la cantidad de personas femeninas menores de edad, cantidad de
+            personas mayores y menores, además deberá indicar el porcentaje que
+            representan las personas mayores y las menores, de edad.
+        </div>
+        <input type="button" value="Ejercicio 28" onclick="ejercicio28();" /><br><br>
+    </li>
+    <li>
+        <div> Escribir un algoritmo que ordene una lista de números indicando al
+            final la cantidad de números pares y la cantidad de números impares, el
+            dato a ingresar es un número y se debe repetir el proceso mientras el
+            número ingresado sea diferente a cero.
+        </div>
+        <input type="button" value="Ejercicio 29" onclick="ejercicio29();" /><br><br>
+    </li>
+ </ol>
+    <script>
+
+        function is_numeric(value) {
+            return !isNaN(parseFloat(value)) && isFinite(value);
+        }
+
+        function ejercicio1(){
+            let tarifa= prompt("Ingresar la tarifa de pago por hora"),
+            horas=prompt("Ingresar las horas trabajadas"),
+            pago = 0;
+
+            if(horas>40)
+            {
+                tarifa=tarifa*1.5;
+            }
+            pago=horas*tarifa;
+            alert("El pago del empleado es de: "+ pago);
+        }
+        //ejercicio1();
+        
+        function ejercicio2(){
+            let sueldo= prompt("Ingrese el sueldo del trabajador"),
+            descuento=0, neto=0;
+
+            if(sueldo<=1000){
+                descuento=sueldo*0.1;
+            }else{
+                if(sueldo<=2000){
+                    descuento=sueldo*0.15;
+                }else{
+                    descuento=sueldo*0.18;
+                }
+            }
+            neto=sueldo-descuento;
+            alert("El descuento es de: "+ descuento  + "\nEl sueldo neto es de: " + neto);
+        }
+        //ejercicio2();
+        
+        function ejercicio3(){
+            let cantidad= prompt("Ingrese una cantidad"),
+            descuento=0;
+
+            if(cantidad>100){
+                descuento=cantidad*0.1;
+            }else{
+                descuento=cantidad*0.02;
+            }
+            alert("El descuento es de: "+ descuento);
+        }
+        //ejercicio3();
+        
+        function ejercicio4(){
+            let tiempo= prompt("Ingrese un tiempo en segundos"),
+            restante=0, aux=0;
+            restante=tiempo%60;
+            aux=60-restante;
+            restante=parseInt(tiempo/60)+1;
+            alert("Los segundos que le faltan para convertirse en " + restante + " minutos son: "+ aux);
+        }
+        //ejercicio4();
+
+        function ejercicio5()
+        {
+            let tiempo= prompt("Ingrese un tiempo en minutos"),
+            dias=0,horas=0, min=0;
+            horas=tiempo/60;
+            min=tiempo%60;
+            dias=horas/24;
+            horas=horas%24;
+            alert("Los "+tiempo+" minutos que se ingresaron equivalen a " + parseInt(dias) + " días "+
+            parseInt(horas)+" horas y "+ parseInt(min)+" minutos");
+        }
+        //ejercicio5();
+
+        function ejercicio6()
+        {
+            let tarifa= prompt("Ingresar la tarifa de pago por hora"),
+            horas=prompt("Ingresar las horas trabajadas"),
+            pago = 0;
+            pago=horas*tarifa;
+            alert("El pago del empleado es de: "+ pago);
+        }
+        //ejercicio6();
+
+        function ejercicio7(){
+            let unidades= prompt("Ingrese cuantas unidades de shampoo desea"),
+            subtotal=0,iva=0,neto=0,descuento=0,total=0;
+            subtotal=unidades*25;
+            iva=subtotal*.15;
+            neto=parseInt(subtotal)+iva;
+            if(neto>50){
+                descuento=neto*.05;
+            }
+            total=neto-descuento;
+            alert("Precio unitario: $25 \nSubtotal: $" + subtotal +"\nIva: $"+iva+"\nDescuento: $" + descuento + "\nTotal: $" + total);
+        }
+        //ejercicio7();
+
+        function ejercicio8(){
+            let edad= prompt("Ingrese su edad");
+            if(edad<=10){
+                alert("Niño");
+            }else{
+                if(edad<=14){
+                    alert("Puberto");
+                }else{
+                    if(edad<=18){
+                        alert("Adolescente");
+                    }else{
+                        if(edad<=25){
+                            alert("Joven");
+                        }else{
+                            if(edad<=65){
+                                alert("Adulto");
+                            }else{
+                                alert("Anciano");
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        //ejercicio8();
+
+        function ejercicio9(){
+            let hora= prompt("Ingrese una hora");
+            if(hora>=10 && hora<=12){
+                alert("Dibujos Animados");
+            }else{
+                if(hora<16 && hora>12){
+                    alert("Tele Serie");
+                }else{
+                    if(hora<18 && hora>15){
+                        alert("Novelas Repetidas");
+                    }else{
+                        if(hora<22 && hora>17){
+                            alert("Dibujos Animados");
+                        }else{
+                            if(hora<=23 && hora>21){
+                                alert("Noticiero");
+                            }else{
+                                alert("No hay programación");
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        //ejercicio9();
+
+        function ejercicio10(){
+            let a= prompt("Ingrese la longitiud a"),
+            b= prompt("Ingrese la longitiud b"),
+            c= prompt("Ingrese la longitiud c");
+
+            if(a<parseFloat(b)+parseFloat(c) && b<parseFloat(a)+parseFloat(c) && c<parseFloat(a)+parseFloat(b)){
+                if(a==b && b==c && a==c){
+                    alert("Se forma un Triangulo Equilátero");
+                }else{
+                    if(a==b || b==c || a==c){
+                        alert("Se forma un Triangulo Isósceles");
+                    }else{
+                        alert("Se forma un Triangulo Escaleno");
+                    }
+                }
+            }else{
+                alert("Las longitudes dadas No Forman un Triangulo");
+            }
+        }
+        //ejercicio10();
+
+        function ejercicio11(){
+            let sueldo= prompt("Ingrese el sueldo mensual del vendedor"),
+            numV=prompt("Ingrese el número de ventas que tuvo en el mes"),
+            monto=0,comision=0,comTotal=0,SueldoTotal=0;
+            for(let i=1;i<=parseInt(numV);i++){
+                monto=prompt("Ingrese el monto de la venta "+ i);
+                if(parseFloat(monto)>10000)
+                {
+                    comision=parseFloat(monto)*0.15
+                }else{
+                    if(parseFloat(monto)>=5000 && parseFloat(monto)<10000){
+                        comision=parseFloat(monto)*0.05
+                    }
+                }
+                comTotal+=comision;
+                comision=0;
+            }
+            SueldoTotal=parseFloat(sueldo)+comTotal;
+            alert("El sueldo total del empleado es: "+SueldoTotal);
+        }
+        //ejercicio11();
+
+        function ejercicio12(){
+            let a= prompt("Ingrese la primer clave"),
+            b= prompt("Ingrese la segunda clave"),
+            c= prompt("Ingrese la tercer clave"),
+            d= prompt("Ingrese la cuarta clave"),
+            e= prompt("Ingrese la quinta clave");
+
+            if(a=="TIENES" && b=="QUE SER" && c=="INVITADO" && d=="PARA" && e=="INGRESAR")
+            {
+                alert("BIENVENIDO A LA FIESTA");
+            }else{
+                alert("TE EQUIVOCASTE DE FIESTA");
+            }
+        }
+        //ejercicio12();
+
+        function ejercicio13(){
+            let a= prompt("Ingrese el valor de A"),
+            b= prompt("Ingrese el valor de B"),
+            c= prompt("Ingrese el valor de C"), 
+            discriminante=0, x=0, y=0;
+
+            discriminante=(Math.pow(parseFloat(b),2)-4*parseFloat(a)*parseFloat(c));
+            if(discriminante<0){
+                alert("EXISTEN DOS RAÍCES IMAGINARIAS");
+            }else{
+                x=(-parseFloat(b)+Math.sqrt(discriminante))/2*parseFloat(a);
+                y=(-parseFloat(b)-Math.sqrt(discriminante))/2*parseFloat(a);
+                alert("X = "+x +", Y = "+y);
+            }
+        }
+        //ejercicio13();
+
+        function ejercicio14(){
+            let monto= prompt("Ingrese el monto total de la compra"),
+            descuento=0, total=0;
+            if(monto>=500){
+                descuento=monto*.30;
+            }else{
+                if(monto<500 && monto>=200){
+                    descuento=monto*.20;
+                }else{
+                    if(monto<200 && monto>=100){
+                        descuento=monto*.10;
+                    }
+                }
+            }
+            total=parseFloat(monto)-parseFloat(descuento)
+            alert("Total de compra: $"+monto+ "\nDescuento: $" + descuento +"\nTotal: $"+total);
+        }
+        //ejercicio14();
+
+        function ejercicio15(){
+            let n=0, mensaje;
+            const menores=[],mayores=[],comprendidos=[];
+            while (n>=0){
+                mensaje=prompt("Ingrese un número natural");
+                n=parseInt(mensaje);
+                if(n>=0 && n<15){
+                    menores.push(n);
+                }else{
+                    if(n>=25 && n<=50){
+                        comprendidos.push(n);
+                    }else{
+                        if(n>50){
+                            mayores.push(n);
+                        }
+                    }
+                }
+            }
+            alert("Los números menores a 15 son: "+ menores +"\nLos números entre 25 y 50 son: "+ comprendidos +"\nLos números mayores de 50 son: "+mayores);
+        }
+        //ejercicio15();
+
+        function ejercicio16(){
+            let n=0, mensaje,suma=0;
+            const numeros=[];
+            while (n>=0){
+                mensaje=prompt("Ingrese un número natural");
+                n=parseInt(mensaje);
+                numeros.push(n);
+            }
+            //se sumaran los primeros 5 numeros naturales
+            for (let i = 0; i < 5; i++) {
+                suma=suma+numeros[i];
+            }
+            alert("Los números ingresados son: "+ numeros +"\nLa suma de los primeros 5 números es: "+suma);
+        }
+        //ejercicio16();
+
+        function ejercicio17(){
+            let tarifa= prompt("Ingresar la tarifa de pago por hora"),
+            horas,pago=0,suma=0,aux;
+            aux=parseFloat(tarifa);
+            for(let i=1;i<=200;i++){
+                horas=prompt("Ingresar las horas trabajadas del empleado "+ i);
+                if(horas>40)
+                {
+                    tarifa=tarifa*1.5;
+                }
+                pago=horas*parseFloat(tarifa);
+                suma+=pago;
+                tarifa=aux;
+            }
+            alert("La suma total del pago de los trabajadores es de: "+ suma);
+        }
+        //ejercicio17();
+
+        function ejercicio18(){
+            let mensaje=prompt("¿Cuantas notas ingresaras del estudiante?"),
+            mensaje2,n=0,aprobadas=0,desaprobadas=0,pn=0,pnA=0, pnD=0;
+            const notas=[];
+            while (n<parseInt(mensaje)){
+                mensaje2=prompt("Ingresa la nota")
+                notas.push(mensaje2);
+                n++;
+            }
+
+            for (let i = 0; i < parseInt(mensaje); i++) {
+                if(notas[i]>=6){
+                    aprobadas++;
+                    pnA=pnA+parseInt(notas[i]);
+                }else{
+                    desaprobadas++;
+                    pnD=pnD+ parseInt(notas[i]);
+                }
+                pn=pn+ parseInt(notas[i]);
+            }
+            pn=pn/parseInt(mensaje);
+            pnA=pnA/aprobadas;
+            pnD=pnD/desaprobadas;
+            alert("Notas Ingresadas: "+notas+"\nTotal de Notas Desaprobadas: "+desaprobadas+"\nTotal de Notas Aprobadas: "+ aprobadas + "\nPromedio de Todas las Notas: "+pn+"\nPromedio de Notas Aprobadas: "+ pnA+ "\nPromedio de Notas Desaprobadas: "+pnD);
+            //console.log(notas);
+        }
+        //ejercicio18();
+
+        function ejercicio19(){
+            let mensaje=prompt("Escriba un numero"),suma=0;
+            for (let i = 0; i < parseInt(mensaje.length); i++) {
+                suma+=parseInt(mensaje[i]);
+            }
+            alert("El total de la suma de los dígitos de "+mensaje+" es igual a: "+suma);
+        }
+        //ejercicio19();
+
+        function ejercicio20(){
+            let n=0, mensaje,pares=0,impares=0,positivos=0,negativos=0;
+            const numeros=[];
+            while (n<50){
+                mensaje=prompt("Ingrese un número");
+                numeros.push(parseInt(mensaje));
+                n++;
+            }
+
+            for (let i = 0; i < 50; i++) {
+                if(numeros[i]>=0){
+                    positivos++;
+                }else{
+                    negativos++;
+                }
+                if(numeros[i]%2==0 || numeros[i]%-2==0){
+                    pares++;
+                }else{
+                    impares++;
+                }
+            }
+            alert("Los números ingresados son: "+ numeros +"\nNúmeros pares: "+pares+"\nNúmeros impares: "+impares+"\nNúmeros positivos: "+positivos+"\nNúmeros negarivos"+negativos);
+        }
+        //ejercicio20();
+
+        function ejercicio21()
+        {
+            let mensaje=prompt("Ingresa un número para obtener su factorial"), factorial=1, numero;
+            numero=parseInt(mensaje);
+            while(numero!=0){
+                factorial=factorial*numero;
+                numero--;
+            }
+            alert("El factorial del número "+mensaje+" es: "+ factorial);
+        }
+        //ejercicio21();
+
+        function ejercicio22(){
+            let mensaje,suma=0,n=100;
+            alert("Se te pedirá 100 veces un número y posteriormente se obtendrá la media de dichos números")
+            while(n>0){
+                mensaje=prompt("Ingresa un número");
+                if(is_numeric(mensaje)){
+                    suma+=parseFloat(mensaje);
+                    n--;
+                }
+            }
+            suma=suma/100;
+            alert("La media es: "+ suma);
+        }
+        //ejercicio22();
+
+        function ejercicio23(){
+            let suma=0,producto=1;
+            for(let i=20; i<=400; i++){
+                if(i%2==0)
+                {
+                    suma+=i;
+                    producto=producto*i;
+                }
+            }
+            alert("la suma y el producto de los números pares comprendidos entre 20 y 400 es: \nSuma = " + suma+"\nProducto = "+producto);
+        }
+        //ejercicio23();
+
+        function ejercicio24(){
+            let mensaje=prompt("Escribe algo "),mensaje2="";
+            const vocales=["a","e","i","o","u","A","E","I","O","U"];
+            for(let i=0; i<mensaje.length;i++){
+                if(vocales.indexOf(mensaje[i])!=-1){ //el indexOf dará -1 si la letra no se encuentra en el arreglo
+                    mensaje2+=mensaje[i];
+                }
+            }
+            alert("El texto es '"+mensaje+"' y las vocales dentro del texto son: "+ mensaje2);
+        }
+        //ejercicio24();
+
+        function ejercicio25(){
+
+        }
+
+        function ejercicio26(){
+
+        }
+
+        function ejercicio27(){
+
+        }
+
+        function ejercicio28(){
+            let mensaje, sexo,edad,masculinoMayor=0,masculinoMenor=0,femeninoMayor=0,femeninoMenor=0,mayores=0,menores=0;
+            
+            for(let i=0;i<5;i++){
+                mensaje=prompt("Ingresa el sexo de la persona 'M' o 'F'");
+                sexo=mensaje;
+                mensaje=prompt("Ingresa la edad de la persona");
+                edad=mensaje;
+                switch(sexo){
+                    case 'M':
+                        if(parseInt(edad)<18){
+                            masculinoMenor++;
+                        }else{
+                            masculinoMayor++;
+                        }
+                        break;
+                    case 'm':
+                    if(parseInt(edad)<18){
+                            masculinoMenor++;
+                        }else{
+                            masculinoMayor++;
+                        }
+                        break;
+                    case 'F':
+                    if(parseInt(edad)<18){
+                            femeninoMenor++;
+                        }else{
+                            femeninoMayor++;
+                        }
+                        break;
+                    case 'f':
+                    if(parseInt(edad)<18){
+                            femeninoMenor++;
+                        }else{
+                            femeninoMayor++;
+                        }
+                        break;
+                }
+            }
+            mayores=masculinoMayor+femeninoMayor;
+            menores=femeninoMenor+masculinoMenor;
+            var porcentajeMayor=(mayores*100)/5;
+            var porcentaje=(menores*100)/5;
+
+            alert("Hay un total de personas: \nMasculinas mayores de edad: " + masculinoMayor + "\nFemeninas menores de edad: "+ femeninoMenor+ "\nTotal de mayores de edad: " + mayores+"\nTotal de menores de edad: "+ menores+"\nPorcentaje de personas mayores de edad: "+porcentajeMayor+"%\nPorcentaje de personas menores de edad: "+porcentaje+"%");
+
+        }
+        //ejercicio28();  
+
+        function ejercicio29(){
+            const arreglo=[];
+            let numero=1,pares=0,impares=0,temp=0;
+            while(numero!=0){
+                numero=prompt("Ingresa un número");
+                if(is_numeric(numero)){
+                    arreglo.push(numero);
+                    if(numero%2==0 || numero%-2==0){
+                        pares++;
+                    }else{
+                        impares++;
+                    }
+                }
+            }
+            for(let i=arreglo.length; i>0; i--){
+                for(let j=0; j<i-1;j++){
+                    if(arreglo[j]>arreglo[j+1])
+                    {
+                        temp=arreglo[j];
+                        arreglo[j]=arreglo[j+1];
+                        arreglo[j+1]=temp;
+                    }
+                }
+            }
+            alert("La lista ordenada de los numeros ingresados es: "+arreglo+"\nEl total de números pares es: "+ pares+"\nEl total de números impares es: "+impares);
+        }
+        //ejercicio29();
+
+    </script>
+</body>
+</html>
