@@ -272,7 +272,7 @@
                 tarifa=tarifa*1.5;
             }
             pago=horas*tarifa;
-            alert("El pago del empleado es de: "+ pago);
+            alert(`El pago del empleado es de: ${pago}`);
         }
         //ejercicio1();
         
@@ -290,7 +290,7 @@
                 }
             }
             neto=sueldo-descuento;
-            alert("El descuento es de: "+ descuento  + "\nEl sueldo neto es de: " + neto);
+            alert(`El descuento es de: ${descuento} \nEl sueldo neto es de: ${neto}`);
         }
         //ejercicio2();
         
@@ -303,7 +303,7 @@
             }else{
                 descuento=cantidad*0.02;
             }
-            alert("El descuento es de: "+ descuento);
+            alert(`El descuento es de: ${descuento}`);
         }
         //ejercicio3();
         
@@ -313,7 +313,7 @@
             restante=tiempo%60;
             aux=60-restante;
             restante=parseInt(tiempo/60)+1;
-            alert("Los segundos que le faltan para convertirse en " + restante + " minutos son: "+ aux);
+            alert(`Los segundos que le faltan para convertirse en ${restante} minutos son: ${aux}`);
         }
         //ejercicio4();
 
@@ -325,8 +325,7 @@
             min=tiempo%60;
             dias=horas/24;
             horas=horas%24;
-            alert("Los "+tiempo+" minutos que se ingresaron equivalen a " + parseInt(dias) + " días "+
-            parseInt(horas)+" horas y "+ parseInt(min)+" minutos");
+            alert(`Los ${tiempo} minutos que se ingresaron equivalen a ${parseInt(dias)} días ${parseInt(horas)} horas y ${parseInt(min)} minutos`);
         }
         //ejercicio5();
 
@@ -336,7 +335,7 @@
             horas=prompt("Ingresar las horas trabajadas"),
             pago = 0;
             pago=horas*tarifa;
-            alert("El pago del empleado es de: "+ pago);
+            alert(`El pago del empleado es de: ${pago}`);
         }
         //ejercicio6();
 
