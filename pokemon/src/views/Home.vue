@@ -4,7 +4,7 @@
         <h1 class="text-4xl leading-6 p-6 font-medium text-gray-900 ">
           Galeria de Imagenes de los Simpson
           </h1>
-        <img class="h-70 w-70 rounded-full p-4" v-for="imagen in imagenes" :key="imagen.id" :src="imagen" alt="Simpson">
+        <img class="h-70 w-70 rounded-full p-4" v-for="imagen in imagenes" :key="imagen.id" :src="imagen" alt="img Simpson">
     </div>
   </div>
 </template>
