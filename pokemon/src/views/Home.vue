@@ -27,11 +27,17 @@ export default {
   },
 
   methods:{
-    async getPokemon(){
+    /*async getPokemon(){
       const response=await axios.get(`https://api.giphy.com/v1/gifs/search?api_key=jUXq6uENWLkSViX2W9NacxL21RJbD5gZ&q=Simpson&limit=30&offset=0&rating=g&lang=es`)
       this.galeria=response.data
       //console.log(this.galeria.data)
       //this.galeria.data.forEach(element => console.log(element.images.downsized.url)); //Probando forEach
+    }*/
+    getPokemon(){
+      axios
+        .get('https://api.giphy.com/v1/gifs/search?api_key=jUXq6uENWLkSViX2W9NacxL21RJbD5gZ&q=Simpson&limit=30&offset=0&rating=g&lang=es')
+        .then(response => (this.galeria = response.data))
+        .catch(error => console.log(error))
     }
   }
 }
