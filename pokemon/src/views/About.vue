@@ -11,7 +11,8 @@
       <div v-if="pokemon" class="items-center">
         <h1 class="text-5xl leading-6 p-8 font-medium text-gray-900">{{pokemon.name}}</h1>
         <img :src="pokemon.sprites.other.dream_world.front_default" class=" h-40 w-40 inline-flex " >
-        <h2 class="text-2xl leading-6 p-8 font-medium text-gray-900">Habilidad: {{pokemon.abilities[1].ability.name}}</h2>
+        <h2 class="text-2xl leading-6 p-3 font-medium text-gray-900">Habilidades:</h2>
+        <h2 class="text-xl" v-for="hability in pokemon.abilities" :key="hability.id">{{hability.ability.name}}</h2>
       </div>
   </div>
 </template>
@@ -35,6 +36,8 @@ export default {
       .then((response)=>{
         this.pokemon=response.data
         //console.log(this.pokemon.name)
+        // this.pokemon.abilities.forEach(element => this.habilidades.push(element.ability.name))
+        //console.log(this.habilidades)
       })
       .catch(error => console.log(error))
     }
