@@ -1,18 +1,15 @@
 <template>
   <div>
-    <Menu/>
-    <Mensaje/>
+    <Home/>
   </div>
 </template>
 
 <script>
-import Menu from './components/menu'
-import Mensaje from './components/actividad'
+import Home from './views/Home'
 export default {
   name:'App',
   components: {
-    Menu,
-    Mensaje
+    Home,
   }
 }
 </script>

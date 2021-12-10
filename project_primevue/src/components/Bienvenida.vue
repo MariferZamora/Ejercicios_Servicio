@@ -4,7 +4,7 @@
       <div id="content2">
           <p style="font-family: Times New Roman, Times, serif; font-size: 30px; font-weight: bold; margin: 1px;">¡Que gusto tenerte de nuevo por aquí!</p>
           <p style="font-family: Times New Roman, Times, serif; font-size: 20px;">¿Te gustaría iniciar sesión para platicar un rato?</p>
-          <Button label="Iniciar Sesión" class="p-button-secondary" style="background:#FFFFFF; color:#57B8EB; border-radius: 6px;"/>
+          <Button label="Iniciar Sesión" class="p-button-secondary" style="background:#FFFFFF; color:#57B8EB; border-radius: 6px;" @click="accion"/>
       </div>
 
   </div>
@@ -12,7 +12,11 @@
 
 <script>
 export default {
-
+    methods:{
+        accion(){
+            this.$emit('accion')
+        }
+    }
 }
 </script>
 

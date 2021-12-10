@@ -11,6 +11,9 @@ import InputText from 'primevue/inputtext'
 import Toast from 'primevue/toast';
 import TabMenu from 'primevue/tabmenu';
 import Dropdown from 'primevue/dropdown';
+import InputSwitch from 'primevue/inputswitch';
+import Textarea from 'primevue/textarea';
+
 
 
 import 'primevue/resources/themes/saga-blue/theme.css'      //theme
@@ -25,6 +28,8 @@ app.component('InputText',InputText);
 app.component('Button',Button);
 app.component('Toast',Toast);
 app.component('TabMenu',TabMenu);
-app.component('Dropdown',Dropdown)
+app.component('Dropdown',Dropdown);
+app.component('InputSwitch',InputSwitch);
+app.component('Textarea',Textarea);
 app.use(router);
 app.mount('#app');

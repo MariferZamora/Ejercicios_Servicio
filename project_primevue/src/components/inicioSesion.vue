@@ -16,7 +16,7 @@
             <InputText type="password" placeholder="Contraseña" />
         </div>
 
-        <Button label="Iniciar Sesión" style="background:#57B8EB; color:#FFFFFF; border-radius: 50px;  width: 380px; height:50px"/>
+        <Button label="Iniciar Sesión" style="background:#57B8EB; color:#FFFFFF; border-radius: 5px;  width: 380px; height:50px"/>
   </div>
 </template>
 
@@ -26,12 +26,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #login{
-    width: 400px;
+    width: 500px;
     height: 470px;
-    background: #F9F8FD;
-    box-shadow: 0px 4px 4px rgba(159, 159, 159, 0.25);
+    box-shadow: 10px 10px 10px rgba(159, 159, 159, 0.50),inset 7px 7px 7px rgba(159, 159, 159, 0.50);
     border-radius: 10px;
 
     display: flex;

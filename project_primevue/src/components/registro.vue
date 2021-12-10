@@ -66,8 +66,7 @@ export default {
 #signup{
   width: 520px;
   height: 650px;
-  background: #F9F8FD;
-  box-shadow: 0px 4px 4px rgba(159, 159, 159, 0.25);
+  box-shadow: 10px 10px 10px rgba(159, 159, 159, 0.50),inset 7px 7px 7px rgba(159, 159, 159, 0.50);
   border-radius: 10px;
 
   display: flex;
