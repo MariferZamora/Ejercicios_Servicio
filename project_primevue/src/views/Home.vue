@@ -7,7 +7,7 @@
       <div id="home" v-else-if="estado === 2">
           <Login />
       </div>
-      <div id="home" v-else-if="estado === 3">
+      <div id="home" v-else-if="estado === 3" style="margin-top: 40px;">
           <Signup/>
       </div>
   </div>

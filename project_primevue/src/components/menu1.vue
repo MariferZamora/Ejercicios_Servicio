@@ -21,18 +21,18 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #tab{
   display:flex;
   justify-content: space-between;
   align-content: center;
   align-items: center;
-  height:60px;
+  height:55px;
   background: #C74850;
 }
 #yana{
-  width: 65px;
-  height: 60px;
+  width: 60px;
+  height: 50px;
   margin-left: 20px;
 
 }
