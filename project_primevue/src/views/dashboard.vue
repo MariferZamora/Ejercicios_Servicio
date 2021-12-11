@@ -15,9 +15,9 @@ export default {
     data() {
 		return {
 			items: [
-                {label: 'Chat', icon: 'pi pi-fw pi-comments' },
-                {label: 'Rutina', icon: 'pi pi-fw pi-heart', to:'/tabmenu/actividades' },
-                {label: 'Baúl', icon: 'pi pi-fw pi-briefcase', to:'/tabmenu/agradecimientos'},
+                {label: 'Chat', icon: 'pi pi-fw pi-comments' , to:'/tabmenu/chat'},
+                {label: 'Rutina', icon: 'pi pi-fw pi-heart', to:'/tabmenu/rutina' },
+                {label: 'Baúl', icon: 'pi pi-fw pi-briefcase', to:'/tabmenu/baul'},
                 {label: 'Settings', icon: 'pi pi-fw pi-cog'}
             ]
 		}

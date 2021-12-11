@@ -28,7 +28,7 @@ export default {
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
 #contenedor{

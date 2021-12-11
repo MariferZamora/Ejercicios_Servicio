@@ -5,6 +5,7 @@
 </template>
 
 <script>
+//import Home from './views/Home'
 import Home from './views/dashboard'
 export default {
   name:'App',

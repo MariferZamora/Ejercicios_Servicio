@@ -2,15 +2,20 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   {
-    path: '/tabmenu/agradecimientos',
+    path: '/tabmenu/baul',
     name: 'viewGratitude',
     component: () => import('../views/ViewGratitude.vue')
     
   },
   {
-    path: '/tabmenu/actividades',
+    path: '/tabmenu/rutina',
     name: 'Actividades',
     component: () => import('../components/Actividades.vue')
+  },
+  {
+    path: '/tabmenu/chat',
+    name: 'Chat',
+    component: () => import('../components/chat.vue')
   }
 ]
 

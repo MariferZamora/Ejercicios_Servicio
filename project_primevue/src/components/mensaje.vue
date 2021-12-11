@@ -1,6 +1,6 @@
 <template>
   <div id="message">
-      <img id="yana" alt="Logo Yana" src="../assets/yana.png"/>
+      <img id="img" alt="perfil" src="../assets/yana.png"/>
       <div id="msg">
            <p style="font-family: Times New Roman, Times, serif; font-size: 20px; font-weight:600;">Yana</p>
            <p style="font-family: Times New Roman, Times, serif; font-size: 20px; color:#6B7280; margin-top: -10px;">Hola ¿Como estás hoy?</p>
@@ -14,7 +14,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #message{
     display: flex;
     flex-direction: row;
@@ -28,8 +28,10 @@ export default {
 #msg{
     display: flex;
     flex-direction: column;
-    margin-left: 15px;
-
-    
+    margin-left: 15px; 
+}
+#img{
+    width: 60px;
+    height: 52px;
 }
 </style>
