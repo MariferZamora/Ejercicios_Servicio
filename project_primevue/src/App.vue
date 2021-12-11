@@ -5,7 +5,8 @@
 </template>
 
 <script>
-import Home from './views/Home'
+//import Home from './views/ViewGratitude'
+import Home from './views/dashboard.vue'
 export default {
   name:'App',
   components: {

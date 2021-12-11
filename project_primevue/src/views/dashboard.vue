@@ -4,6 +4,7 @@
       <img id="yana" alt="Logo Yana" src="../assets/yana.png"/>
     </div>
     <TabMenu :model="items" />
+    <router-view />
   </div>
 </template>
 
