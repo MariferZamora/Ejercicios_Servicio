@@ -53,11 +53,12 @@ export default {
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
  #botones{
      display: flex;
      justify-content: flex-end;
+     margin-top: 20px;
  }
 </style>

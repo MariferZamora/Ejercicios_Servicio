@@ -5,13 +5,13 @@
 </template>
 
 <script>
-//import Home from './views/ViewGratitude'
-import Home from './views/dashboard.vue'
+import Home from './views/dashboard'
 export default {
   name:'App',
-  components: {
-    Home,
+  components:{
+    Home
   }
+
 }
 </script>
 

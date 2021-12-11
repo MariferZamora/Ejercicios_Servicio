@@ -2,11 +2,15 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   {
-    path: '/',
+    path: '/tabmenu/agradecimientos',
+    name: 'viewGratitude',
+    component: () => import('../views/ViewGratitude.vue')
+    
   },
   {
-    path: '/',
-    
+    path: '/tabmenu/actividades',
+    name: 'Actividades',
+    component: () => import('../components/Actividades.vue')
   }
 ]
 

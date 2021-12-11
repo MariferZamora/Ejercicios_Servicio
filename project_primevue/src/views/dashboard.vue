@@ -11,12 +11,13 @@
 
 <script>
 export default {
+    name: 'Dashboard',
     data() {
 		return {
 			items: [
-                {label: 'Chat', icon: 'pi pi-fw pi-comments'},
-                {label: 'Rutina', icon: 'pi pi-fw pi-heart'},
-                {label: 'Baúl', icon: 'pi pi-fw pi-briefcase'},
+                {label: 'Chat', icon: 'pi pi-fw pi-comments' },
+                {label: 'Rutina', icon: 'pi pi-fw pi-heart', to:'/tabmenu/actividades' },
+                {label: 'Baúl', icon: 'pi pi-fw pi-briefcase', to:'/tabmenu/agradecimientos'},
                 {label: 'Settings', icon: 'pi pi-fw pi-cog'}
             ]
 		}
